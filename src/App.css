@@ -1,5 +1,62 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
+  color:white;
+  min-height:100vh;
+}
+
+.header{
+  background-color: yellow;
+}
+
+
+.footer{
+  background-color: blue;
+}
+
+
+h1{
+  margin: 0;
+}
+.header{
+  background-color: rgb(201, 105, 105);
+  padding: 8px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14px;
+  
+   
+}
+.movie{
+  background-color: rgb(212, 191, 223);
+  color: black;
+  border: 1px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-top: 14px;
+  
+  
+}
+.movie img{
+  height: 220px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -36,3 +93,4 @@
     transform: rotate(360deg);
   }
 }
+*/
